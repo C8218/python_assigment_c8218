@@ -1,0 +1,10 @@
+age_75plus = True
+immun = True
+smoking = True
+weak = True
+strong = False
+risk = immun or smoking or age or weak or strong
+if risk == True :
+  print("risk grubundasınız")
+else:
+  print("risk grubunda değilsiniz.") 
